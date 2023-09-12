@@ -1,4 +1,7 @@
-export const allUsers = (req, res) => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.allUsers = void 0;
+const allUsers = (req, res) => {
     return res.status(200).json([
         {
             id: 1,
@@ -12,3 +15,4 @@ export const allUsers = (req, res) => {
         },
     ]);
 };
+exports.allUsers = allUsers;
